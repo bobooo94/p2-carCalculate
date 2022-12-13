@@ -5,11 +5,11 @@
 - speedlimit, inicijalno 0 */
 
 export class Vehicle {
-    currentSpeed = 0;
-    constructor (brand = "", speedLimit = 0, numberOfWheels = 1) {
+    constructor (brand = "", numberOfWheels = 1, currentSpeed = 0, speedLimit = 0) {
         this.brand = brand;
-        this.speedLimit = speedLimit;
         this.numberOfWheels = numberOfWheels;
+        this.currentSpeed = currentSpeed;
+        this.speedLimit = speedLimit;
     }
 
     // metoda accelerate koja koristi Math.random i generise broj izmedju 1 i speedLimit i njime azurira currentSpeed polje:

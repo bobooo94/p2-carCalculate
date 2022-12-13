@@ -7,8 +7,8 @@
 import { Vehicle } from "./vehicle.js";
 
 export class Car extends Vehicle {
-    constructor (brand, speedLimit, numberOfWheels, tankCapacity = 55, currentFuelQuantity) {
-        super(brand, speedLimit, numberOfWheels);
+    constructor (brand, speedLimit, tankCapacity = 55, numberOfWheels = 4, currentSpeed, currentFuelQuantity) {
+        super(brand, numberOfWheels, currentSpeed, speedLimit);
         this.tankCapacity = tankCapacity;
         this.currentFuelQuantity = currentFuelQuantity;
     }
