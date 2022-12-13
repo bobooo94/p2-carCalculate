@@ -18,12 +18,12 @@ Pozvati sve metode koje rade ispis u konzoli. */
 
 import { Car } from "./car.js";
 
-const masina = new Car ("Audi", 80);
+const auto = new Car ("Audi", 80);
 
-masina.currentFuelRandom(); // poziva funkciju da izracuna koliko goriva ima
-console.log("You have " + masina.currentFuelRandom() + (" liters of fuel.")) // test radi li currentFuel
-masina.getMissingQuantityFromTank();
+auto.currentFuelRandom(); // poziva funkciju da izracuna koliko goriva ima
+console.log("You have " + auto.currentFuelRandom() + (" liters of fuel.")); // test radi li currentFuel
+auto.getMissingQuantityFromTank();
 
-masina.accelerate(); // poziva funkciju za odredjivanje brzine
-console.log("You are driving " + masina.accelerate() + " km/h."); //test radi li accelerate
-masina.status(); //poziva funkciju za opreznu/neopreznu voznju
+auto.accelerate(); // poziva funkciju za odredjivanje brzine
+console.log("You are driving " + auto.accelerate() + " km/h."); //test radi li accelerate
+auto.status(); //poziva funkciju za opreznu/neopreznu voznju

@@ -21,14 +21,3 @@ export class Car extends Vehicle {
         console.log("You need " + (this.tankCapacity-this.currentFuelQuantity) + " liters to fill up your tank!");
     }
 }
-
-
-const masina = new Car ("Audi", 80);
-
-// masina.currentFuelRandom(); // poziva funkciju da izracuna koliko goriva ima
-// console.log("You have " + masina.currentFuelRandom() + (" liters of fuel."))
-// masina.getMissingQuantityFromTank();
-
-// masina.accelerate(); // poziva funkciju za odredjivanje brzine
-// console.log("You are driving " + masina.accelerate() + " km/h.");
-// masina.status(); //poziva funkciju za opreznu/neopreznu voznju

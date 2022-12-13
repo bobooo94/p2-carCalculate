@@ -28,9 +28,3 @@ export class Vehicle {
         }
     }
 }
-
-
-// const masina = new Vehicle ("Audi", 80);
-// masina.accelerate();
-// console.log(masina.accelerate());
-// masina.status();
